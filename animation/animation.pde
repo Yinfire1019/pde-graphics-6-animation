@@ -19,10 +19,13 @@
    x = x + delta;
    
    if (x == height+170){
-   delta = -5;
+   delta = -5;fill(20,210,201);
    }
    if(x == 25){
-     delta =5 ;
-  
-   }
-}
+     delta =5;fill(200,10,20);
+    }
+ 
+
+
+
+ }
