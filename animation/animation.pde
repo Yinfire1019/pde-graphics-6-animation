@@ -7,7 +7,7 @@
  */
  int x = 350;
  int y = 250;
- int delta = 1;
+ int delta = 5;
  void setup() {
   size(700, 500); // Size of canvas
   
@@ -16,13 +16,13 @@
  background(100, 10, 100);
  ellipseMode(CENTER);
  ellipse(x,y,50,50);
-   y = y + delta;
+   x = x + delta;
    
-   if (y == height-25){
-   delta = -1;
+   if (x == height+170){
+   delta = -5;
    }
-   if(y == 25){
-     delta =1 ;
+   if(x == 25){
+     delta =5 ;
+  
    }
-
 }
